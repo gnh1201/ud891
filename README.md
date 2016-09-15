@@ -11,6 +11,7 @@ We supported summarized web accessibility guide by translated UD981 documentatio
 - https://github.com/gnh1201/ud891/wiki/Lesson-4-Semantics-Navigating-Content
 - https://github.com/gnh1201/ud891/wiki/Lesson-5-ARIA
 - https://github.com/gnh1201/ud891/wiki/Lesson-6-Style
+- https://github.com/gnh1201/ud891-ko/wiki/Video-List
 
 ## Found problems?
 Contact me. gnh1201@gmail.com
