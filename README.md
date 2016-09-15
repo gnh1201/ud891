@@ -1,5 +1,5 @@
 # Summary UD891 for Korean
-We supported summarized web accessibility guide by translated UD981 documentation.
+We support summarized web accessibility guide by translated UD981 course.
 - https://github.com/gnh1201/ud891-ko/wiki/
 - http://blog.naver.com/isc7981/220813034824
 
