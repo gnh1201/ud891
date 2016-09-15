@@ -3,7 +3,7 @@ We supported summarized web accessibility guide by translated UD981 documentatio
 - https://github.com/gnh1201/ud891/wiki/Summary-UD891-for-Korean
 - http://blog.naver.com/isc7981/220813034824
 
-## found problems?
+## Found problems?
 Contact me. gnh1201@gmail.com
 
 # Udacity Web Accessibility
