@@ -1,6 +1,6 @@
 # Summary UD891 for Korean
 We supported summarized web accessibility guide by translated UD981 documentation.
-- https://github.com/gnh1201/ud891/wiki/Summary-UD891-for-Korean
+- https://github.com/gnh1201/ud891/wiki/
 - http://blog.naver.com/isc7981/220813034824
 
 ## Found problems?
