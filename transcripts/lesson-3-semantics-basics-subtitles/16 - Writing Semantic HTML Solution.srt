@@ -1,0 +1,47 @@
+1
+00:00:00,830 --> 00:00:04,800
+When we don't use a button element the
+screen reader has no way of knowing what
+
+2
+00:00:04,800 --> 00:00:06,000
+it's landed on.
+
+3
+00:00:06,000 --> 00:00:09,240
+Plus we'd have to do all the extra work
+we talked about in the previous lesson
+
+4
+00:00:09,240 --> 00:00:11,850
+to make it usable to
+keyboard only users.
+
+5
+00:00:11,850 --> 00:00:13,914
+Right now I can only use
+this button with a mouse.
+
+6
+00:00:15,225 --> 00:00:18,475
+We can easily fix this by using
+a regular button element,
+
+7
+00:00:18,475 --> 00:00:19,955
+instead of a div.
+
+8
+00:00:19,955 --> 00:00:23,075
+This also has the added benefit of
+taking care of keyboard interactions
+
+9
+00:00:23,075 --> 00:00:24,225
+for us.
+
+10
+00:00:24,225 --> 00:00:26,415
+Once we've fixed the button
+we now have our secret word
+

@@ -1,0 +1,10 @@
+1
+00:00:00,490 --> 00:00:03,950
+This rule, the web page has a
+descriptive and informative page title,
+
+2
+00:00:03,950 --> 00:00:08,510
+is rule number 2.4.2 and
+lives within the POUR Section Operable.
+

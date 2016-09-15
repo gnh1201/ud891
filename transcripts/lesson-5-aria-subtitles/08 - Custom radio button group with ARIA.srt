@@ -1,0 +1,74 @@
+1
+00:00:01,170 --> 00:00:04,810
+The area practices document has this
+to say about the radio group pattern.
+
+2
+00:00:06,250 --> 00:00:09,930
+Use a container with a roll radio
+group for the set of radio buttons.
+
+3
+00:00:09,930 --> 00:00:11,370
+So we set that attribute here.
+
+4
+00:00:12,710 --> 00:00:16,020
+Then individual radio
+buttons have a role of radio.
+
+5
+00:00:16,020 --> 00:00:18,222
+So we set that here for
+each radio button.
+
+6
+00:00:18,222 --> 00:00:23,263
+[BLANK_AUDIO]
+
+7
+00:00:23,263 --> 00:00:27,683
+Now if a radio button's selected, it's
+aria-checked attribute needs to be true
+
+8
+00:00:27,683 --> 00:00:30,155
+and if it's not selected
+it needs to be false.
+
+9
+00:00:30,155 --> 00:00:40,155
+[BLANK_AUDIO]
+
+10
+00:00:41,802 --> 00:00:44,850
+We come here to this
+changeFocus function.
+
+11
+00:00:44,850 --> 00:00:47,880
+We need to make sure that we
+keep the aria-checked attribute
+
+12
+00:00:47,880 --> 00:00:50,390
+in sync with the checked value.
+
+13
+00:00:50,390 --> 00:00:53,090
+So we need to modify our JavaScript.
+
+14
+00:00:53,090 --> 00:00:55,712
+So that every time we change
+the checked attribute,
+
+15
+00:00:55,712 --> 00:00:58,045
+we also change
+the aria-checked attribute.
+
+16
+00:00:58,045 --> 00:00:58,545
+[BLANK_AUDIO]
+

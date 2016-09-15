@@ -1,0 +1,222 @@
+1
+00:00:01,050 --> 00:00:03,530
+Hi, this is Victor again and
+
+2
+00:00:03,530 --> 00:00:08,600
+this time I'd like to show you how I
+use a screen reader on everyday basis.
+
+3
+00:00:08,600 --> 00:00:14,125
+In this particular case I will be
+using one of my daily things and
+
+4
+00:00:14,125 --> 00:00:18,435
+that is looking at a public forum that
+talks about accessibility issues for
+
+5
+00:00:18,435 --> 00:00:19,925
+the Android operating system.
+
+6
+00:00:19,925 --> 00:00:21,795
+>> Open location… About:
+blank contents selected,
+
+7
+00:00:21,795 --> 00:00:24,575
+Address and search bar, edit text
+>> You will notice that my screen reader
+
+8
+00:00:24,575 --> 00:00:26,655
+speaks really fast.
+
+9
+00:00:26,655 --> 00:00:30,315
+As a beginner user you tend to
+listen at much lower speeds.
+
+10
+00:00:30,315 --> 00:00:35,290
+But as you gain efficiency with the
+screen reader, you will find that making
+
+11
+00:00:35,290 --> 00:00:40,400
+it speak faster improves efficiency
+when browsing content on websites.
+
+12
+00:00:40,400 --> 00:00:42,180
+So back to my public form.
+
+13
+00:00:42,180 --> 00:00:44,505
+I'm going to go to groups website.
+
+14
+00:00:44,505 --> 00:00:50,214
+>> [SOUND]
+[INAUDIBLE]
+
+15
+00:00:50,214 --> 00:00:52,534
+>> Since I use this website every day I
+
+16
+00:00:52,534 --> 00:00:57,414
+know that it provides a lot of shortcut
+keys That allowed me to browse this
+
+17
+00:00:57,414 --> 00:00:58,940
+website much faster.
+
+18
+00:01:00,110 --> 00:01:01,760
+So first I'll go to my groups.
+
+19
+00:01:01,760 --> 00:01:03,700
+>> My groups, Google groups,
+HTML content.
+
+20
+00:01:03,700 --> 00:01:07,510
+>> And now I will be using a screen
+reader functionality there allows me to
+
+21
+00:01:07,510 --> 00:01:09,980
+browse through the links on this webpage
+
+22
+00:01:09,980 --> 00:01:12,835
+because I'd like to find a specific
+public forum I'm looking for.
+
+23
+00:01:12,835 --> 00:01:16,900
+>> [INAUDIBLE]
+>> Here
+
+24
+00:01:20,360 --> 00:01:25,890
+you will see I have
+a few message threads.
+
+25
+00:01:25,890 --> 00:01:30,280
+And quite recently I heard about
+this new app called Swift.
+
+26
+00:01:30,280 --> 00:01:35,670
+It's a braille Keyboard that allows
+people who are blind to type braille
+
+27
+00:01:35,670 --> 00:01:37,400
+faster on Android.
+
+28
+00:01:37,400 --> 00:01:40,910
+So I'm going to go back to
+this thread and look at some
+
+29
+00:01:43,070 --> 00:01:48,946
+of the messages that I may have missed.
+
+30
+00:01:48,946 --> 00:01:52,784
+>> [INAUDIBLE]
+
+31
+00:01:52,784 --> 00:01:59,015
+>> Looking at messages that
+
+32
+00:01:59,015 --> 00:02:05,847
+I included in this thread.
+
+33
+00:02:05,847 --> 00:02:12,821
+I used again, shortcut keys to
+quickly move through messages.
+
+34
+00:02:12,821 --> 00:02:13,643
+>> [INAUDIBLE].
+I did a 10:32
+
+35
+00:02:13,643 --> 00:02:14,400
+AM (53 minutes ago) Star this post.
+
+36
+00:02:14,400 --> 00:02:15,210
+Sergio Brunetti Hi all, sorry.
+
+37
+00:02:15,210 --> 00:02:16,280
+I am trying to create a new topic.
+
+38
+00:02:16,280 --> 00:02:17,210
+I sent a message in a wrong place.
+
+39
+00:02:17,210 --> 00:02:17,980
+I hope now it will work.
+
+40
+00:02:17,980 --> 00:02:19,139
+Group item.
+
+41
+00:02:19,139 --> 00:02:22,614
+>> Okay, this gives me some idea as to
+what people may have responded since
+
+42
+00:02:22,614 --> 00:02:24,412
+the last time I looked at this thread.
+
+43
+00:02:24,412 --> 00:02:26,930
+So I'm going to go back and see-
+>> Star this topic, discussion.
+
+44
+00:02:26,930 --> 00:02:29,730
+>> If there is anything new since
+the last time I looked at this forum.
+
+45
+00:02:29,730 --> 00:02:30,600
+>> Star this topic, discussion.
+
+46
+00:02:30,600 --> 00:02:32,490
+Will Talkback work on anything
+that's running Adroid?
+
+47
+00:02:32,490 --> 00:02:33,660
+(5).
+>> Yeah, there's quite a bit to read.
+
+48
+00:02:35,140 --> 00:02:38,900
+But anyway I hope this gives you
+a quick glance into how I use this view
+
+49
+00:02:38,900 --> 00:02:39,950
+to an everyday basis.
+

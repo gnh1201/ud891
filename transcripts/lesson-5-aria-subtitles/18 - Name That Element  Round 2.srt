@@ -1,0 +1,10 @@
+1
+00:00:00,560 --> 00:00:04,059
+Identify the labels for
+each of these elements.
+
+2
+00:00:04,059 --> 00:00:07,580
+If there isn't a label appropriately
+defined, check the box, no label.
+

@@ -1,0 +1,28 @@
+1
+00:00:00,130 --> 00:00:04,120
+This time we have a different form
+which we've hidden from view again.
+
+2
+00:00:04,120 --> 00:00:07,455
+Let's use the screen reader to
+find the first form field, and
+
+3
+00:00:07,455 --> 00:00:09,903
+then we want to find out its role and
+its label.
+
+4
+00:00:09,903 --> 00:00:11,443
+[BLANK_AUDIO]
+
+5
+00:00:11,443 --> 00:00:15,064
+Once you've identified the role and
+the label, put your answers here.
+
+6
+00:00:15,064 --> 00:00:16,649
+[BLANK_AUDIO]
+

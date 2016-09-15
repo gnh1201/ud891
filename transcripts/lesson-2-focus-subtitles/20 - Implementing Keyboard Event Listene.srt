@@ -1,0 +1,66 @@
+1
+00:00:00,810 --> 00:00:03,960
+In this quiz, you're going to need
+to add keyboard event listeners
+
+2
+00:00:03,960 --> 00:00:07,510
+to this collection of elements
+with the class radiogroup.
+
+3
+00:00:07,510 --> 00:00:11,570
+Note that the individual radio
+buttons have a class of radio.
+
+4
+00:00:11,570 --> 00:00:16,906
+The radio buttons are stored in
+this.buttons within radiogroup.js.
+
+5
+00:00:16,906 --> 00:00:19,066
+There's also a focused index variable,
+
+6
+00:00:19,066 --> 00:00:22,760
+which is the index of the element
+that should be focused.
+
+7
+00:00:22,760 --> 00:00:27,200
+There are already keyboard listeners for
+both the up and left and down and
+
+8
+00:00:27,200 --> 00:00:29,300
+right arrow keys.
+
+9
+00:00:29,300 --> 00:00:33,550
+However, it's up to us to figure
+out which index should be focused
+
+10
+00:00:33,550 --> 00:00:36,060
+when those arrow keys are pressed.
+
+11
+00:00:36,060 --> 00:00:40,980
+Keep in mind that there are only three
+children, so if the index gets too high
+
+12
+00:00:40,980 --> 00:00:45,590
+or too low, we'll need to loop back
+around in the other direction.
+
+13
+00:00:45,590 --> 00:00:48,060
+Once we've set the correct focus index,
+
+14
+00:00:48,060 --> 00:00:52,810
+the changeFocus method down here
+should take care of the rest.
+

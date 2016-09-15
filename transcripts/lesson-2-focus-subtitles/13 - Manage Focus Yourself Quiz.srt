@@ -1,0 +1,18 @@
+1
+00:00:00,440 --> 00:00:04,560
+Here's a classic single page web app
+where clicking a navigation item
+
+2
+00:00:04,560 --> 00:00:05,880
+will change the page content.
+
+3
+00:00:07,090 --> 00:00:09,520
+Using your JavaScript skills make it so
+
+4
+00:00:09,520 --> 00:00:13,950
+each heading is properly focused when
+the user clicks a navigation link.
+

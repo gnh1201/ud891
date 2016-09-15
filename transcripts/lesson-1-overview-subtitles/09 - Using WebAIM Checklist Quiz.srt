@@ -1,0 +1,20 @@
+1
+00:00:00,750 --> 00:00:03,930
+Using the WebAIM checklist,
+find the rule that dictates
+
+2
+00:00:03,930 --> 00:00:07,689
+the web page has a descriptive and
+informative page title.
+
+3
+00:00:07,689 --> 00:00:10,550
+In the answer boxes,
+write down the Rule Number and
+
+4
+00:00:10,550 --> 00:00:12,520
+the POUR Section that
+this rule lives under.
+

@@ -1,0 +1,64 @@
+1
+00:00:00,560 --> 00:00:04,178
+First, we'll identify unlabled
+contents by using the screen reader.
+
+2
+00:00:04,178 --> 00:00:08,020
+[SOUND]
+>> Checkbox checked.
+
+3
+00:00:08,020 --> 00:00:11,160
+>> The promotional offers
+Checkbox isn't labeled.
+
+4
+00:00:11,160 --> 00:00:15,080
+There are two ways to associate
+a label with the form element.
+
+5
+00:00:15,080 --> 00:00:18,380
+Either these methods will cause the
+label text to become a click target for
+
+6
+00:00:18,380 --> 00:00:22,770
+the check box, which is also super
+helpful for pointer based users.
+
+7
+00:00:22,770 --> 00:00:28,420
+We could wrap the input element in
+a label element, or we could use the for
+
+8
+00:00:28,420 --> 00:00:32,575
+attribute of the label to associate
+it with the ID of the input.
+
+9
+00:00:32,575 --> 00:00:35,978
+[NOISE]
+>> Receive promotional offers checkbox
+
+10
+00:00:35,978 --> 00:00:37,090
+checked.
+
+11
+00:00:37,090 --> 00:00:40,300
+>> Once the checkbox has been
+labeled correctly we can see that it
+
+12
+00:00:40,300 --> 00:00:44,120
+has a roll of checkbox,
+its state is checked and
+
+13
+00:00:44,120 --> 00:00:46,830
+it has a label of receive
+promotional offers.
+

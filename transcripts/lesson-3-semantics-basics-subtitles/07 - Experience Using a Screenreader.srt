@@ -1,0 +1,34 @@
+1
+00:00:00,420 --> 00:00:04,440
+All right, now let's book
+a flight using a screen reader.
+
+2
+00:00:04,440 --> 00:00:06,640
+We've modified the flight
+reservation page so
+
+3
+00:00:06,640 --> 00:00:08,510
+that you can't see what
+you're doing anymore.
+
+4
+00:00:08,510 --> 00:00:10,698
+You'll have to use the screen reader.
+
+5
+00:00:10,698 --> 00:00:13,840
+You might want to refer back to
+the earlier exercise if you get stuck.
+
+6
+00:00:14,970 --> 00:00:19,010
+Use the provided form to book a one way
+ticket to Melbourne with a window seat.
+
+7
+00:00:20,470 --> 00:00:23,000
+Once you've completed the task,
+check here to continue.
+

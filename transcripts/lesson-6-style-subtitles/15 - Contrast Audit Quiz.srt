@@ -1,0 +1,33 @@
+1
+00:00:00,620 --> 00:00:01,140
+Okay.
+
+2
+00:00:01,140 --> 00:00:04,110
+Now that we know how to use
+the accessibility audit to find and fix
+
+3
+00:00:04,110 --> 00:00:08,460
+errors on our page, let's get our hands
+dirty and try it out for ourselves.
+
+4
+00:00:08,460 --> 00:00:11,840
+I've got a sample blog here and
+though everything seems okay to me,
+
+5
+00:00:11,840 --> 00:00:15,170
+I think we should give it a once
+over using the audit tool.
+
+6
+00:00:15,170 --> 00:00:16,090
+Take a crack at it.
+
+7
+00:00:16,090 --> 00:00:18,740
+And if you find any issues,
+fix them up before moving on.
+

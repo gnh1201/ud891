@@ -1,0 +1,192 @@
+1
+00:00:00,280 --> 00:00:04,360
+We've learned about ARIA roles,
+Design Patterns, live regions, labeling
+
+2
+00:00:04,360 --> 00:00:08,380
+mechanisms, and ways to hide parts of
+the page from assistive technology.
+
+3
+00:00:08,380 --> 00:00:11,840
+Now we're going to put all of that
+together by building on the modal dialog
+
+4
+00:00:11,840 --> 00:00:14,900
+from Lesson 2 to create
+a fully semantic dialog
+
+5
+00:00:14,900 --> 00:00:18,270
+with a confirmation message
+which appears on submit.
+
+6
+00:00:18,270 --> 00:00:20,630
+Remember that modal dialog that
+Rob showed us in Lesson two?
+
+7
+00:00:20,630 --> 00:00:24,750
+We're going to look at it in
+the context of a more complicated page.
+
+8
+00:00:24,750 --> 00:00:27,880
+So here, we have the familiar
+flight booking page, and
+
+9
+00:00:27,880 --> 00:00:29,590
+we've added a sign up button here.
+
+10
+00:00:29,590 --> 00:00:31,930
+I'll start Chrome box light and
+
+11
+00:00:31,930 --> 00:00:35,190
+then tab through these links
+to get to the sign up button.
+
+12
+00:00:35,190 --> 00:00:36,620
+>> Frequent flyer number.
+
+13
+00:00:36,620 --> 00:00:37,990
+Add a text.
+
+14
+00:00:37,990 --> 00:00:39,010
+>> I can press Enter or
+
+15
+00:00:39,010 --> 00:00:43,140
+Space to click the button which
+pops open the modal dialog.
+
+16
+00:00:43,140 --> 00:00:47,630
+It focuses the first focusable element,
+and tells me about that element.
+
+17
+00:00:47,630 --> 00:00:50,420
+Frequent flier number, edit text.
+
+18
+00:00:50,420 --> 00:00:54,510
+It doesn't give me any information
+about the context for that form field.
+
+19
+00:00:54,510 --> 00:00:56,636
+In this case, we can get by without it.
+
+20
+00:00:56,636 --> 00:01:00,710
+But it would have been nice to hear this
+heading, and to know that we were in
+
+21
+00:01:00,710 --> 00:01:04,879
+a modal dialog and couldn't get to
+the rest of the page without closing it.
+
+22
+00:01:04,879 --> 00:01:08,518
+I can use the Chrome Vox like
+controls to work backwards to explore
+
+23
+00:01:08,518 --> 00:01:12,705
+the context for this form and see if
+there's anything important in there.
+
+24
+00:01:13,800 --> 00:01:15,970
+>> Log into kangaroo
+kilometers heading one
+
+25
+00:01:17,100 --> 00:01:18,450
+>> So going backwards,
+
+26
+00:01:18,450 --> 00:01:22,220
+I hear the heading log into
+Kangaroo Kilometers, great.
+
+27
+00:01:22,220 --> 00:01:24,250
+Was there anything else I missed?
+
+28
+00:01:24,250 --> 00:01:26,040
+I'll hit previous again.
+
+29
+00:01:26,040 --> 00:01:30,150
+>> Copyright 2015 Udacity,
+Internal link footer.
+
+30
+00:01:30,150 --> 00:01:30,990
+>> Okay.
+
+31
+00:01:30,990 --> 00:01:34,360
+Now I'm outside the dialogue
+in the footer, what the?
+
+32
+00:01:35,440 --> 00:01:38,345
+Since Chrome Vox isn't directly
+moving focus in this case,
+
+33
+00:01:38,345 --> 00:01:41,640
+our nice focus trapping code
+didn't get triggered and
+
+34
+00:01:41,640 --> 00:01:44,570
+we were able to break
+out of the dialogue.
+
+35
+00:01:44,570 --> 00:01:47,120
+So we have a couple of
+issues we need to fix here.
+
+36
+00:01:47,120 --> 00:01:48,990
+We aren't told we're in a dialogue and
+
+37
+00:01:48,990 --> 00:01:52,330
+we can break out of the dialogue
+with the screen reader.
+
+38
+00:01:52,330 --> 00:01:56,350
+Have a think back over this lesson, and
+have a look at the hints in the code and
+
+39
+00:01:56,350 --> 00:01:58,920
+see if you can figure out
+how we can fix these issues.
+
+40
+00:02:00,550 --> 00:02:03,390
+Once you fix the example,
+come back here and
+
+41
+00:02:03,390 --> 00:02:05,130
+pick all the statements which are true.
+

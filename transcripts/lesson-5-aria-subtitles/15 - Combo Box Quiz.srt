@@ -1,0 +1,142 @@
+1
+00:00:00,310 --> 00:00:03,610
+This combo box example gets
+most of the way there, but
+
+2
+00:00:03,610 --> 00:00:06,230
+it's missing some aria relationships.
+
+3
+00:00:06,230 --> 00:00:07,900
+Let's take a look at
+the current situation.
+
+4
+00:00:09,400 --> 00:00:13,205
+>> Combo box example having
+to [SOUND] choose a drink.
+
+5
+00:00:13,205 --> 00:00:14,500
+Combo box collapsed.
+
+6
+00:00:15,510 --> 00:00:19,310
+>> I'll turn on ChromeVox Lite and
+then tab to the combo box.
+
+7
+00:00:19,310 --> 00:00:23,220
+It gets announced as Choose a drink:,
+Combo box.
+
+8
+00:00:23,220 --> 00:00:24,900
+So far, so good.
+
+9
+00:00:24,900 --> 00:00:28,430
+Since this is a combo box,
+I get this list of options.
+
+10
+00:00:28,430 --> 00:00:31,240
+I can choose with the arrow keys or
+I can type.
+
+11
+00:00:31,240 --> 00:00:31,825
+>> Expanded.
+
+12
+00:00:31,825 --> 00:00:35,141
+[SOUND] Choose a drink,
+combo box expanded.
+
+13
+00:00:35,141 --> 00:00:37,022
+>> If I were to arrow
+down into the list,
+
+14
+00:00:37,022 --> 00:00:40,920
+I can see that the selected item was
+changing but I don't hear any feedback.
+
+15
+00:00:42,260 --> 00:00:46,350
+Now let's see a version with a few
+tweaks to make it work well.
+
+16
+00:00:46,350 --> 00:00:47,275
+>> Combo box example.
+
+17
+00:00:47,275 --> 00:00:50,132
+[SOUND] Choose a drink, combo box.
+
+18
+00:00:50,132 --> 00:00:52,786
+>> Just as before,
+I'll turn on ChromeVox Lite and
+
+19
+00:00:52,786 --> 00:00:54,920
+I move to the combo box.
+
+20
+00:00:54,920 --> 00:00:58,420
+Now, if I use the arrow keys
+to move through the list,
+
+21
+00:00:58,420 --> 00:00:59,990
+>> Coffee one of seven.
+
+22
+00:00:59,990 --> 00:01:03,656
+>> It tells me coffee, one of seven
+>> Tea two of seven.
+
+23
+00:01:03,656 --> 00:01:06,250
+>> Tea two of seven and so on.
+
+24
+00:01:06,250 --> 00:01:10,490
+>> Two of seven
+>> Coffee one of two, O cola one of two,
+
+25
+00:01:10,490 --> 00:01:11,660
+coffee one of two.
+
+26
+00:01:11,660 --> 00:01:13,550
+>> And if I type in co and
+
+27
+00:01:13,550 --> 00:01:18,070
+arrow through the list again, it tells
+me that there are now only two options.
+
+28
+00:01:18,070 --> 00:01:19,940
+So how do we fix this?
+
+29
+00:01:19,940 --> 00:01:23,440
+Well, the code sample
+has a few FIXME's in it.
+
+30
+00:01:23,440 --> 00:01:24,930
+That's probably a good place to start.
+
+31
+00:01:26,040 --> 00:01:30,270
+Once you've done the combo box exercise,
+come back here and answer this question.
+

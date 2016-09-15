@@ -1,0 +1,34 @@
+1
+00:00:00,570 --> 00:00:01,750
+Here's a little sample app,
+
+2
+00:00:01,750 --> 00:00:06,270
+where the focus indicator seems
+to get lost as we tab around.
+
+3
+00:00:06,270 --> 00:00:09,530
+I suspect it's focusing
+something offscreen, but
+
+4
+00:00:09,530 --> 00:00:12,950
+I'm not sure exactly which
+element is the culprit.
+
+5
+00:00:12,950 --> 00:00:15,470
+Using some of the information
+from the previous lesson.
+
+6
+00:00:15,470 --> 00:00:17,740
+Can you track down
+the element in question and
+
+7
+00:00:17,740 --> 00:00:19,640
+update the code with
+an appropriate fix?.
+

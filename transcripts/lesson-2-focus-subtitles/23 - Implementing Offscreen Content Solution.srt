@@ -1,0 +1,49 @@
+1
+00:00:00,870 --> 00:00:02,680
+Tapping through the page,
+
+2
+00:00:02,680 --> 00:00:07,780
+it seems like focus jumps out of order
+some where after these navigation links.
+
+3
+00:00:07,780 --> 00:00:12,770
+If I use document.activeElement, or if
+I were to use the accessibility audit,
+
+4
+00:00:12,770 --> 00:00:17,710
+I can see that the item stealing
+is a button with a class of close.
+
+5
+00:00:19,530 --> 00:00:23,960
+Looking at my source code, it appears
+that there's some markup for a modal.
+
+6
+00:00:23,960 --> 00:00:28,020
+And sure enough, there's a button
+with a class of close here.
+
+7
+00:00:28,020 --> 00:00:30,300
+Since I'm not currently
+displaying this modal,
+
+8
+00:00:30,300 --> 00:00:35,230
+I'll update my CSS to set anything
+with the class modal to display none.
+
+9
+00:00:35,230 --> 00:00:39,560
+That will opt it and all of its
+children out of the tab order.
+
+10
+00:00:39,560 --> 00:00:42,650
+When I want to display the modal,
+I can just override that style.
+

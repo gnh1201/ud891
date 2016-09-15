@@ -1,0 +1,100 @@
+1
+00:00:00,340 --> 00:00:04,090
+All right, first up,
+this little list of links in the header.
+
+2
+00:00:04,090 --> 00:00:05,610
+If I inspect one of those links,
+
+3
+00:00:05,610 --> 00:00:09,290
+I could see it's in a div
+with the class of blog nav.
+
+4
+00:00:09,290 --> 00:00:13,150
+So that could just as
+easily be a nav element.
+
+5
+00:00:13,150 --> 00:00:16,920
+Next, this big green section,
+it's under the hero section.
+
+6
+00:00:16,920 --> 00:00:18,550
+And I see something called row.
+
+7
+00:00:18,550 --> 00:00:20,816
+But I think that's just
+a layout helper div so
+
+8
+00:00:20,816 --> 00:00:23,310
+I'm going to drill a little deeper.
+
+9
+00:00:23,310 --> 00:00:27,280
+The next element we see
+has a class of col-sm-8
+
+10
+00:00:27,280 --> 00:00:31,880
+which seems like a grid system class,
+but also blog-main.
+
+11
+00:00:31,880 --> 00:00:34,172
+So that's probably a good candidate for
+our main element.
+
+12
+00:00:34,172 --> 00:00:37,900
+This sidebar here,
+this one's a little tricky.
+
+13
+00:00:37,900 --> 00:00:40,110
+But if we look through our
+list of semantic elements,
+
+14
+00:00:40,110 --> 00:00:42,261
+we see there is one called aside.
+
+15
+00:00:42,261 --> 00:00:45,420
+The spec says of aside
+that it can be used for
+
+16
+00:00:45,420 --> 00:00:48,420
+groups of nav elements and
+for other content
+
+17
+00:00:48,420 --> 00:00:51,930
+that is considered separate from
+the main content of the page.
+
+18
+00:00:51,930 --> 00:00:53,710
+So we could definitely
+use an aside here.
+
+19
+00:00:54,830 --> 00:00:59,260
+Finally, right inside the main element
+we have something called blog-post.
+
+20
+00:00:59,260 --> 00:01:01,370
+Now there's no post element, but
+
+21
+00:01:01,370 --> 00:01:04,660
+there is certainly an article element
+and that would work really well here.
+

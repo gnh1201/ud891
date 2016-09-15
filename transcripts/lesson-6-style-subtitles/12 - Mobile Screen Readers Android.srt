@@ -1,0 +1,93 @@
+1
+00:00:00,920 --> 00:00:03,770
+In the home screen I can
+click on Settings and
+
+2
+00:00:03,770 --> 00:00:09,170
+then click on Accessibility and click
+on TalkBack and switch TalkBack on.
+
+3
+00:00:10,230 --> 00:00:10,980
+>> TalkBack on.
+
+4
+00:00:13,260 --> 00:00:14,896
+Settings.
+>> I can also go to the settings for
+
+5
+00:00:14,896 --> 00:00:16,629
+TalkBack and double tap to select it.
+
+6
+00:00:16,629 --> 00:00:18,429
+Showing items 1 to 9 of 33.
+
+7
+00:00:18,429 --> 00:00:20,670
+>> To scroll I can use two fingers.
+
+8
+00:00:20,670 --> 00:00:24,790
+I'm going to scroll down the page here,
+there is a little tutorial,
+
+9
+00:00:24,790 --> 00:00:26,304
+>> Showing items 19 to,
+
+10
+00:00:26,304 --> 00:00:29,010
+launch explore by touch tutorial.
+
+11
+00:00:29,010 --> 00:00:30,266
+>> I highly recommend
+you check this out.
+
+12
+00:00:30,266 --> 00:00:38,030
+>> Overview button, overview settings,
+Chrome the accessibility blog, Chrome.
+
+13
+00:00:38,030 --> 00:00:39,790
+>> As I was taking a look
+at our accessibility blog,
+
+14
+00:00:39,790 --> 00:00:40,540
+>> The accessibility blog.
+
+15
+00:00:40,540 --> 00:00:42,360
+>> We can explore by touch.
+
+16
+00:00:42,360 --> 00:00:44,440
+Swipe, just switch to
+different headings.
+
+17
+00:00:44,440 --> 00:00:45,680
+>> Topics.
+
+18
+00:00:45,680 --> 00:00:46,800
+Sample blog post.
+
+19
+00:00:48,100 --> 00:00:49,060
+Double tap to select.
+
+20
+00:00:49,060 --> 00:00:52,600
+>> And when we find something that we're
+interested in, we can highlight it and
+
+21
+00:00:52,600 --> 00:00:53,730
+double tap it to select it.
+

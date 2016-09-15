@@ -1,0 +1,86 @@
+1
+00:00:00,420 --> 00:00:02,760
+Okay, let's have a look at these links.
+
+2
+00:00:02,760 --> 00:00:06,080
+This link click here is
+obviously a problem.
+
+3
+00:00:06,080 --> 00:00:08,920
+Click here doesn't tell me anything
+about what's going to happen
+
+4
+00:00:08,920 --> 00:00:10,030
+if I were to click it.
+
+5
+00:00:10,030 --> 00:00:11,930
+So that's the first one,
+
+6
+00:00:11,930 --> 00:00:15,480
+all of these add to order
+links look a bit suspicious.
+
+7
+00:00:15,480 --> 00:00:19,810
+Add to order is an action but they're
+at least styled to look like links.
+
+8
+00:00:19,810 --> 00:00:21,360
+If I were to pull up the dev tools,
+
+9
+00:00:21,360 --> 00:00:23,620
+I'll see that they're actually
+implemented as buttons.
+
+10
+00:00:23,620 --> 00:00:25,530
+So those are fine.
+
+11
+00:00:25,530 --> 00:00:28,270
+Now this logo is also a link, but
+
+12
+00:00:28,270 --> 00:00:31,120
+once again if you open dev tools
+you'll see that it has alt text.
+
+13
+00:00:31,120 --> 00:00:33,080
+So that's okay.
+
+14
+00:00:33,080 --> 00:00:37,020
+Now, if you were to tab through
+the links you would see a problem.
+
+15
+00:00:37,020 --> 00:00:39,980
+It's skips over the navigation
+links up at the top.
+
+16
+00:00:39,980 --> 00:00:44,500
+What's going on,
+they're spans styled to look like links.
+
+17
+00:00:44,500 --> 00:00:47,830
+Clearly this is an over
+engineered restaurant website
+
+18
+00:00:47,830 --> 00:00:49,650
+built like a single page web app.
+
+19
+00:00:49,650 --> 00:00:51,080
+So I'm going to check that one as well.
+

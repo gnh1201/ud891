@@ -1,0 +1,71 @@
+1
+00:00:01,140 --> 00:00:03,105
+The following elements
+should have focus.
+
+2
+00:00:03,105 --> 00:00:04,077
+Header links,
+
+3
+00:00:04,077 --> 00:00:06,683
+[BLANK_AUDIO]
+
+4
+00:00:06,683 --> 00:00:11,553
+Search fields, form input fields,
+and the Submit button,
+
+5
+00:00:11,553 --> 00:00:15,770
+our large Call to Action button,
+and footer links.
+
+6
+00:00:17,110 --> 00:00:20,560
+I'm not going to add tabindex
+to any of these headings.
+
+7
+00:00:21,910 --> 00:00:24,730
+I'm not going to add tabindex
+to any of these headings or
+
+8
+00:00:24,730 --> 00:00:26,410
+the paragraphs of text.
+
+9
+00:00:26,410 --> 00:00:29,470
+Even if that content seems super
+important, it's not something the user
+
+10
+00:00:29,470 --> 00:00:33,080
+can interact with, so
+there's no reason to make it focusable.
+
+11
+00:00:33,080 --> 00:00:36,620
+Similarly, even if this big
+image is really awesome,
+
+12
+00:00:36,620 --> 00:00:38,870
+there is no reason to make it focusable.
+
+13
+00:00:38,870 --> 00:00:42,730
+Screen reader users will still be able
+to understand the content of the image,
+
+14
+00:00:42,730 --> 00:00:45,770
+so long as we provide
+proper Alt tag support,
+
+15
+00:00:45,770 --> 00:00:47,890
+which Alice will touch on
+in just a few lessons.
+

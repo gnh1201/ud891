@@ -1,0 +1,23 @@
+1
+00:00:01,040 --> 00:00:05,050
+We just saw how Wikipedia uses headings
+to create a usable page structure.
+
+2
+00:00:05,050 --> 00:00:06,517
+Now it's your turn.
+
+3
+00:00:06,517 --> 00:00:09,403
+Want you to go back and
+look at this site and
+
+4
+00:00:09,403 --> 00:00:13,117
+match each of these headers
+with the heading number.
+
+5
+00:00:13,117 --> 00:00:14,739
+[BLANK_AUDIO]
+

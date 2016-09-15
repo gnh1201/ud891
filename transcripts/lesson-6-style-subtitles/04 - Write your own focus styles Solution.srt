@@ -1,0 +1,112 @@
+1
+00:00:00,510 --> 00:00:04,340
+Looking at the main.css file,
+you'll notice the anchor tags and
+
+2
+00:00:04,340 --> 00:00:08,080
+the button tags have their
+outline set to none.
+
+3
+00:00:08,080 --> 00:00:12,070
+So I need to find all of the anchor and
+button elements in this page and
+
+4
+00:00:12,070 --> 00:00:14,360
+give them new focus styles.
+
+5
+00:00:14,360 --> 00:00:18,950
+This means I need to style
+these navigation elements,
+
+6
+00:00:18,950 --> 00:00:23,129
+any buttons inside the Jumbotron,
+and these raised elements.
+
+7
+00:00:24,230 --> 00:00:26,780
+Because I want my focus
+tiles to look consistent,
+
+8
+00:00:26,780 --> 00:00:30,710
+I'm going to copy each of these
+selectors and group them at the bottom.
+
+9
+00:00:30,710 --> 00:00:34,810
+Next, I'll add pseudo classes for
+focus and hover to each.
+
+10
+00:00:34,810 --> 00:00:36,280
+Finally I'll add some styling.
+
+11
+00:00:37,300 --> 00:00:41,570
+I'm going to give each element
+a red background on white texts.
+
+12
+00:00:41,570 --> 00:00:45,320
+This reversing effect will really
+make the focus buttons stand out.
+
+13
+00:00:45,320 --> 00:00:48,950
+But I also want to be careful about
+just conveying information with color.
+
+14
+00:00:48,950 --> 00:00:51,772
+Because some of my users may
+have a color vision impairment.
+
+15
+00:00:51,772 --> 00:00:55,990
+Rob will talk about color vision
+impairments in an upcoming lesson but
+
+16
+00:00:55,990 --> 00:00:59,780
+to cater to these users,
+I'll also add a text underline.
+
+17
+00:00:59,780 --> 00:01:02,570
+So there's a bit more visual
+indication that something has changed.
+
+18
+00:01:03,808 --> 00:01:07,850
+Finally I'll steal this fancy drop
+shadow from the raised buttons and
+
+19
+00:01:07,850 --> 00:01:09,400
+apply it to all the elements.
+
+20
+00:01:09,400 --> 00:01:12,390
+Adding some shadow will also help the
+elements stand out a little bit more.
+
+21
+00:01:14,170 --> 00:01:19,180
+Tabbing through the updated site, I can
+now clearly track focus across the page.
+
+22
+00:01:19,180 --> 00:01:22,870
+My designer's happy, because the focus
+tiles fit the look of the site and
+
+23
+00:01:22,870 --> 00:01:26,070
+my keyboard users are happy, because
+they can easily navigate the page.
+

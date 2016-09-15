@@ -1,0 +1,97 @@
+1
+00:00:00,520 --> 00:00:05,084
+When you're building components,
+it's a very common practice to reflect
+
+2
+00:00:05,084 --> 00:00:07,875
+the state of the component
+using CSS classes.
+
+3
+00:00:07,875 --> 00:00:12,394
+For instance here is a toggle button
+that I've built and when I click on it,
+
+4
+00:00:12,394 --> 00:00:14,632
+it's going to go into a pressed state.
+
+5
+00:00:14,632 --> 00:00:16,424
+And in order to style that state,
+
+6
+00:00:16,424 --> 00:00:20,640
+my JavaScript has added a pressed
+class up here to my class list.
+
+7
+00:00:20,640 --> 00:00:24,671
+And because I want to have good
+semantics, my JavaScript has also set
+
+8
+00:00:24,671 --> 00:00:28,020
+the aria-pressed state for
+this toggle button to true.
+
+9
+00:00:28,020 --> 00:00:32,118
+And the style of a pressed state of the
+button in my CSS, I have a selector that
+
+10
+00:00:32,118 --> 00:00:36,260
+targets any instance of the button
+that has this pressed class.
+
+11
+00:00:36,260 --> 00:00:39,910
+Now a useful technique which we can
+employ in this situation is to actually
+
+12
+00:00:39,910 --> 00:00:45,310
+remove this pressed class, and
+instead replace it with aria attributes.
+
+13
+00:00:45,310 --> 00:00:48,370
+So I'm going to update the selector so
+that it looks like this.
+
+14
+00:00:48,370 --> 00:00:51,240
+Here I'm using a CSS attribute selector
+
+15
+00:00:51,240 --> 00:00:54,539
+to target the element when
+aria-pressed is true.
+
+16
+00:00:55,900 --> 00:00:58,120
+And the effect is the same as before,
+but
+
+17
+00:00:58,120 --> 00:01:01,680
+now I get this nice verification that
+I've set the aria state properly
+
+18
+00:01:01,680 --> 00:01:05,510
+because it's visually
+reflected by my element.
+
+19
+00:01:05,510 --> 00:01:09,520
+Not to mention I can cut
+down on some of my CSS noise
+
+20
+00:01:09,520 --> 00:01:13,430
+by getting rid of additional selectors
+and replacing them with aria attributes.
+

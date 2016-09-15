@@ -1,0 +1,38 @@
+1
+00:00:00,000 --> 00:00:00,998
+In this example,
+
+2
+00:00:00,998 --> 00:00:04,588
+we have a single element on the page
+that looks like a button, but
+
+3
+00:00:04,588 --> 00:00:08,792
+if we take a look at the HTML source,
+we can see it's not actually a button.
+
+4
+00:00:08,792 --> 00:00:12,695
+And if we try to use it with the screen
+reader, we'd run into problems.
+
+5
+00:00:12,695 --> 00:00:16,299
+Rewrite this code so
+it's more semantic in nature, and
+
+6
+00:00:16,299 --> 00:00:20,371
+if you get it correct,
+you'll find a secret word up at the top.
+
+7
+00:00:20,371 --> 00:00:23,374
+Once you've corrected the element
+to discover the secret word,
+
+8
+00:00:23,374 --> 00:00:24,310
+put that word here.
+

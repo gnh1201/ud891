@@ -1,0 +1,14 @@
+1
+00:00:00,550 --> 00:00:04,830
+On this shopping site we have several
+product images, logos, and icons.
+
+2
+00:00:04,830 --> 00:00:07,160
+Provide some alternate
+text where necessary, and
+
+3
+00:00:07,160 --> 00:00:09,130
+a blank alt attribute otherwise.
+

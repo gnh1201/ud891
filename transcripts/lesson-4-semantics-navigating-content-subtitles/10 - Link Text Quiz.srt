@@ -1,0 +1,20 @@
+1
+00:00:00,186 --> 00:00:02,863
+Okay, now that we know
+a bit more about links,
+
+2
+00:00:02,863 --> 00:00:06,171
+let's diagnose some issues
+with the links on this page.
+
+3
+00:00:06,171 --> 00:00:09,330
+Have a look at the live page,
+then come back here and
+
+4
+00:00:09,330 --> 00:00:13,080
+check all of the links which have
+issues that you need to fix.
+

@@ -1,0 +1,321 @@
+1
+00:00:00,490 --> 00:00:03,750
+In the previous sections,
+any time we focused an element,
+
+2
+00:00:03,750 --> 00:00:09,000
+we relied on the built-in browser focus
+ring to style that element for us.
+
+3
+00:00:09,000 --> 00:00:11,920
+The focus ring is great because
+without it, it's impossible for
+
+4
+00:00:11,920 --> 00:00:15,330
+a keyboard user to tell which
+element is currently focused.
+
+5
+00:00:15,330 --> 00:00:18,330
+In fact, the WebAIM checklist
+specifically states in section 2.4.7
+
+6
+00:00:18,330 --> 00:00:21,260
+that it should be
+visually apparent which
+
+7
+00:00:21,260 --> 00:00:25,570
+page element has the current keyboard
+focus as you tab through the page.
+
+8
+00:00:25,570 --> 00:00:29,620
+But sometimes the default focus ring
+may not fit in well with your design.
+
+9
+00:00:30,910 --> 00:00:34,890
+For instance, here I've got a blue
+focus ring on a blue background.
+
+10
+00:00:34,890 --> 00:00:36,520
+So it's just really hard to see.
+
+11
+00:00:37,755 --> 00:00:41,945
+And in some cases, the focus ring can
+kind of awkwardly wrap around elements
+
+12
+00:00:41,945 --> 00:00:44,965
+as we saw in our lesson to for example.
+
+13
+00:00:44,965 --> 00:00:47,555
+So we need a way to change
+the appearance of our element, and
+
+14
+00:00:47,555 --> 00:00:50,635
+we'd like that change to happen
+only when the element is focused.
+
+15
+00:00:51,715 --> 00:00:55,375
+To do this,
+we can use the focus pseudo class.
+
+16
+00:00:55,375 --> 00:00:59,710
+The focus pseudo class only
+matches when an element has focus.
+
+17
+00:00:59,710 --> 00:01:01,950
+To change the appearance
+of our focus ring,
+
+18
+00:01:01,950 --> 00:01:04,560
+we can then use the outline property.
+
+19
+00:01:04,560 --> 00:01:07,150
+Here, I'm using the outline property to
+change the appearance of the focus ring
+
+20
+00:01:07,150 --> 00:01:09,780
+to a one pixel dotted white line.
+
+21
+00:01:11,020 --> 00:01:14,440
+Now, some developers choose to
+remove the style altogether
+
+22
+00:01:14,440 --> 00:01:18,430
+by setting the outline property
+of the element to zero or none.
+
+23
+00:01:18,430 --> 00:01:22,480
+And this, by itself,
+is a major anti-pattern.
+
+24
+00:01:22,480 --> 00:01:23,860
+Without a focus indicator,
+
+25
+00:01:23,860 --> 00:01:28,250
+how is a keyboard user supposed to tell
+which item they're interacting with?
+
+26
+00:01:28,250 --> 00:01:31,720
+If you're going to remove the focus ring
+because you don't like how it looks,
+
+27
+00:01:31,720 --> 00:01:35,650
+then you need to replace it with
+another consistent focus indicator so
+
+28
+00:01:35,650 --> 00:01:38,260
+a keyboard or switch device
+user can navigate your page.
+
+29
+00:01:39,490 --> 00:01:41,150
+Using that example from before,
+
+30
+00:01:41,150 --> 00:01:44,260
+let's look at how we can provide our
+own alternative focus indicator.
+
+31
+00:01:45,400 --> 00:01:48,070
+So you might be familiar with adding
+hover states to your controls
+
+32
+00:01:48,070 --> 00:01:50,580
+using the hover pseudo class.
+
+33
+00:01:50,580 --> 00:01:54,850
+Here, I've set my buttons to have
+a red background with white text and
+
+34
+00:01:54,850 --> 00:01:57,090
+a text underline whenever
+they're hovered.
+
+35
+00:01:57,090 --> 00:02:00,457
+I can actually see this in practice as I
+go and mouse over the items on my page.
+
+36
+00:02:00,457 --> 00:02:02,818
+[BLANK_AUDIO]
+
+37
+00:02:02,818 --> 00:02:05,555
+So a simple solution of
+removing the focus ring and
+
+38
+00:02:05,555 --> 00:02:10,289
+replacing it is just to give your
+element the same hover and focus styles.
+
+39
+00:02:10,289 --> 00:02:13,680
+I can do this by adding another
+line to my block of CSS here
+
+40
+00:02:13,680 --> 00:02:15,240
+that uses the focus pseudo class.
+
+41
+00:02:16,440 --> 00:02:20,690
+And because the hover style might not
+make it obvious which element has focus,
+
+42
+00:02:20,690 --> 00:02:23,550
+I'm also going to write
+a style specifically using
+
+43
+00:02:23,550 --> 00:02:25,780
+the focus pseudo class.
+
+44
+00:02:25,780 --> 00:02:30,280
+This style right here is going to
+remove that default focus ring, and
+
+45
+00:02:30,280 --> 00:02:32,773
+replace it with a colored box-shadow.
+
+46
+00:02:32,773 --> 00:02:36,840
+Now, you might be wondering why use
+a box-shadow instead of just changing
+
+47
+00:02:36,840 --> 00:02:40,560
+the color of the focus ring,
+which is a really good question.
+
+48
+00:02:40,560 --> 00:02:43,450
+Because the various browsers
+out there style the outline
+
+49
+00:02:43,450 --> 00:02:45,230
+properties slightly differently,
+
+50
+00:02:45,230 --> 00:02:49,690
+just changing the color might not
+always produce a consistent experience.
+
+51
+00:02:49,690 --> 00:02:53,360
+Using a box shadow here, I know that
+I'm going to get a consistent focus
+
+52
+00:02:53,360 --> 00:02:55,180
+indicator across the different browsers.
+
+53
+00:02:56,300 --> 00:02:57,630
+Now, as I tab through the page,
+
+54
+00:02:57,630 --> 00:03:01,059
+It's much easier to tell which
+element currently has focus.
+
+55
+00:03:02,820 --> 00:03:06,210
+Let's use the same technique to fix up
+the radio group example from lesson two.
+
+56
+00:03:07,350 --> 00:03:11,600
+I'll start off by removing this sort
+of awkward wrapping focus indicator
+
+57
+00:03:11,600 --> 00:03:15,020
+by setting the outline to none
+using that focus pseudo class.
+
+58
+00:03:16,690 --> 00:03:22,390
+And then, I'll use a focus tile to
+just target my before pseudo elements.
+
+59
+00:03:22,390 --> 00:03:25,612
+These are what actually produce
+our little radio circles here.
+
+60
+00:03:25,612 --> 00:03:29,850
+I'm going to give those radio
+circles a blue tinted box shadow.
+
+61
+00:03:29,850 --> 00:03:32,050
+So now when the user
+presses their arrow keys,
+
+62
+00:03:32,050 --> 00:03:35,610
+it's very obvious which
+item currently has focus.
+
+63
+00:03:37,110 --> 00:03:41,160
+So, to sum it up, if at all possible
+leave the default browser focus ring in
+
+64
+00:03:41,160 --> 00:03:44,530
+place, as it's what many
+users have come to expect.
+
+65
+00:03:44,530 --> 00:03:47,690
+If, however, the ring is
+clashing with your page styles or
+
+66
+00:03:47,690 --> 00:03:50,760
+it's just awkwardly wrapping
+around your elements, then you can
+
+67
+00:03:50,760 --> 00:03:54,790
+use the focus pseudo class to provide
+your own custom focus indicator
+

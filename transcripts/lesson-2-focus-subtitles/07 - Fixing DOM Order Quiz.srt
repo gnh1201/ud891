@@ -1,0 +1,95 @@
+1
+00:00:00,210 --> 00:00:01,370
+Here's how I did it.
+
+2
+00:00:01,370 --> 00:00:05,520
+Looking at the markup for the page,
+I can see that the search link
+
+3
+00:00:05,520 --> 00:00:09,550
+is actually higher in the DOM
+order than the other links.
+
+4
+00:00:09,550 --> 00:00:14,120
+And it's using this pull-right class
+here to float over to one side.
+
+5
+00:00:14,120 --> 00:00:17,430
+The easiest thing to do here is
+to just move the search button
+
+6
+00:00:17,430 --> 00:00:19,140
+below the other elements.
+
+7
+00:00:19,140 --> 00:00:21,460
+That will give the same
+visual presentation but
+
+8
+00:00:21,460 --> 00:00:23,820
+now the tab order makes sense.
+
+9
+00:00:23,820 --> 00:00:26,570
+I also noticed that
+the newsletter is jumping
+
+10
+00:00:26,570 --> 00:00:29,060
+ahead of the other elements
+on the page because it's
+
+11
+00:00:29,060 --> 00:00:32,390
+absolutely positioned to appear
+at the bottom of the page.
+
+12
+00:00:32,390 --> 00:00:34,850
+Just like the search link,
+I'll move the newsletter
+
+13
+00:00:34,850 --> 00:00:39,400
+down to the bottom of the document
+just after the main element.
+
+14
+00:00:39,400 --> 00:00:42,750
+Now is also a good time to improve
+our semantics a little bit.
+
+15
+00:00:42,750 --> 00:00:44,000
+Instead of just using a div for
+
+16
+00:00:44,000 --> 00:00:47,180
+this element,
+I can replace it with a footer tag.
+
+17
+00:00:47,180 --> 00:00:50,590
+Doing so can benefit screen readers
+who rely on these kind of landmarked
+
+18
+00:00:50,590 --> 00:00:52,100
+elements to navigate the page.
+
+19
+00:00:52,100 --> 00:00:56,280
+And it's also a little more concise
+than saying div class equals footer.
+
+20
+00:00:56,280 --> 00:01:00,320
+I'll also talk more about semantics and
+navigation in a future lesson.
+

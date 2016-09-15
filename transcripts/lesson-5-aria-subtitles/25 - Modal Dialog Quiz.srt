@@ -1,0 +1,173 @@
+1
+00:00:00,470 --> 00:00:02,605
+Let's have a look at the HTML first.
+
+2
+00:00:02,605 --> 00:00:06,290
+I see a FIXME here,
+there's a role for that.
+
+3
+00:00:06,290 --> 00:00:10,010
+Let's go have a look at
+the aria roles we can use.
+
+4
+00:00:10,010 --> 00:00:13,155
+All right, dialog seems like a good fit.
+
+5
+00:00:13,155 --> 00:00:16,865
+A dialog is an application window that
+is designed to interrupt the current
+
+6
+00:00:16,865 --> 00:00:20,995
+processing of an application in order to
+prompt the user to enter information or
+
+7
+00:00:20,995 --> 00:00:23,055
+require a response.
+
+8
+00:00:23,055 --> 00:00:26,675
+Let's add that role and
+see how it changes things.
+
+9
+00:00:26,675 --> 00:00:30,550
+Now with ChromeVox Lite running, when I
+click the Sign in button, it tells me,
+
+10
+00:00:30,550 --> 00:00:31,970
+Entered dialog,
+
+11
+00:00:31,970 --> 00:00:37,360
+Log in to Kangaroo Kilometers Dialog,
+Frequent flyer number, Edit text.
+
+12
+00:00:37,360 --> 00:00:39,230
+How did it know the name of the dialog?
+
+13
+00:00:40,470 --> 00:00:44,800
+Yeah, it already had
+an aria-labelledby attribute on there,
+
+14
+00:00:44,800 --> 00:00:46,990
+pointing at the heading.
+
+15
+00:00:46,990 --> 00:00:49,930
+But at this point,
+if I were to Shift+Tab backwards,
+
+16
+00:00:49,930 --> 00:00:53,610
+I would see that I could still jump
+out of the dialog and into the footer.
+
+17
+00:00:54,650 --> 00:00:56,596
+If we look at the DOM, we can see why.
+
+18
+00:00:56,596 --> 00:01:00,020
+The dialog is placed
+after the page content.
+
+19
+00:01:00,020 --> 00:01:01,820
+So if we work backwards from the dialog,
+
+20
+00:01:01,820 --> 00:01:04,690
+we'll end up at the end
+of the page contents.
+
+21
+00:01:04,690 --> 00:01:06,770
+Let's have a look at
+the JavaScript here then.
+
+22
+00:01:06,770 --> 00:01:10,818
+There's a comment down here saying hide
+non-modal content from screen readers.
+
+23
+00:01:10,818 --> 00:01:14,020
+Perhaps aria-hidden would
+be a good fit here.
+
+24
+00:01:14,020 --> 00:01:15,070
+So let's give that a shot.
+
+25
+00:01:16,130 --> 00:01:19,650
+We'll add a line here, looking for
+that wrapper element, and
+
+26
+00:01:19,650 --> 00:01:21,950
+set the aria-hidden attribute to true.
+
+27
+00:01:22,980 --> 00:01:23,840
+Then of course,
+
+28
+00:01:23,840 --> 00:01:27,830
+we need to remember to set it back
+to false once the dialog is closed.
+
+29
+00:01:27,830 --> 00:01:29,125
+Since the default value for
+
+30
+00:01:29,125 --> 00:01:32,390
+aria-hidden is false,
+we can just remove the attribute.
+
+31
+00:01:33,670 --> 00:01:34,752
+Now let's see if that worked.
+
+32
+00:01:34,752 --> 00:01:38,780
+With ChromeVox Lite running,
+I can open the dialog again.
+
+33
+00:01:38,780 --> 00:01:43,630
+And working backwards from this text
+field, I go to the Log in button,
+
+34
+00:01:43,630 --> 00:01:45,590
+which is exactly what I would expect.
+
+35
+00:01:45,590 --> 00:01:48,620
+The focus is locked to just this dialog.
+
+36
+00:01:48,620 --> 00:01:50,010
+Awesome.
+
+37
+00:01:50,010 --> 00:01:54,220
+And if I close the dialog, the focus
+goes back to the Sign in button,
+
+38
+00:01:54,220 --> 00:01:56,450
+exactly where we started this process.
+

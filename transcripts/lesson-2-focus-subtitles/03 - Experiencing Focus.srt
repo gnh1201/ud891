@@ -1,0 +1,38 @@
+1
+00:00:00,380 --> 00:00:02,280
+Let's try out some of the focus
+techniques discussed in
+
+2
+00:00:02,280 --> 00:00:03,680
+the previous lesson.
+
+3
+00:00:03,680 --> 00:00:04,580
+I'd like you to search for
+
+4
+00:00:04,580 --> 00:00:09,380
+a ticket on Udacity's new Australian
+airline website using your keyboard.
+
+5
+00:00:09,380 --> 00:00:12,820
+We've disabled the mouse on this page,
+so you can't cheat.
+
+6
+00:00:12,820 --> 00:00:16,484
+I'd like for you to search for a ticket
+that is a round trip to Melbourne
+
+7
+00:00:16,484 --> 00:00:22,830
+leaving on 10/12/2017
+returning on 10/23/2017,
+
+8
+00:00:22,830 --> 00:00:26,980
+is a window seat, and you do not want
+to receive any promotional offers.
+

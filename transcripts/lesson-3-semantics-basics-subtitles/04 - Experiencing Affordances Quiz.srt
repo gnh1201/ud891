@@ -1,0 +1,39 @@
+1
+00:00:00,940 --> 00:00:03,640
+The next quiz is all about
+thinking about what we know
+
+2
+00:00:03,640 --> 00:00:08,350
+as users about the graphical UI
+affordances provided by HTML.
+
+3
+00:00:08,350 --> 00:00:12,380
+Let's take a look at some of the most
+common affordances we see on webpages.
+
+4
+00:00:12,380 --> 00:00:15,650
+All of the form elements we use
+on that flight-booking site
+
+5
+00:00:15,650 --> 00:00:20,040
+have some familiar semantics which
+give us cues as to how we use them.
+
+6
+00:00:20,040 --> 00:00:23,945
+In this exercise all you need to do
+is match up a screenshot of the UI
+
+7
+00:00:23,945 --> 00:00:26,860
+element with the semantic
+meaning on the right.
+
+8
+00:00:26,860 --> 00:00:28,099
+[BLANK_AUDIO]
+

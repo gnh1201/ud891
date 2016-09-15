@@ -1,0 +1,22 @@
+1
+00:00:00,590 --> 00:00:04,660
+If I press the Tab key, it takes me
+straight to the first form field.
+
+2
+00:00:04,660 --> 00:00:07,260
+>> Your email address, edit text.
+
+3
+00:00:07,260 --> 00:00:11,110
+>> It announces,
+your email address, edit text.
+
+4
+00:00:11,110 --> 00:00:13,082
+So its Role is, edit text.
+
+5
+00:00:13,082 --> 00:00:15,250
+And its Label is, your email address.
+

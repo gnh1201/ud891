@@ -1,0 +1,48 @@
+1
+00:00:00,440 --> 00:00:03,200
+Using the skills we've covered
+in this lesson you should now be
+
+2
+00:00:03,200 --> 00:00:07,550
+well equipped to implement a solid
+focused strategy in your application.
+
+3
+00:00:07,550 --> 00:00:10,740
+The next step is to take all these
+various interactive controls that we've
+
+4
+00:00:10,740 --> 00:00:14,280
+been working with and
+start to infuse them with some meaning.
+
+5
+00:00:14,280 --> 00:00:17,850
+For instance, when a screen reader
+lands on your custom radio buttons,
+
+6
+00:00:17,850 --> 00:00:21,230
+how is it going to tell the user that
+these are in fact radio buttons.
+
+7
+00:00:21,230 --> 00:00:23,460
+And not just a bunch of divs.
+
+8
+00:00:23,460 --> 00:00:25,800
+For that, we're going to need
+to learn about semantics.
+
+9
+00:00:25,800 --> 00:00:28,195
+And I'm going to turn it over to
+Alice to tell you all about it.
+
+10
+00:00:28,195 --> 00:00:28,909
+[BLANK_AUDIO]
+

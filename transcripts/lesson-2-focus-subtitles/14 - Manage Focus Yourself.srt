@@ -1,0 +1,45 @@
+1
+00:00:00,380 --> 00:00:05,349
+Inside each section of the page, I'm
+going to find an appropriate header like
+
+2
+00:00:05,349 --> 00:00:08,602
+these h2s, and
+give it a tab index of negative 1.
+
+3
+00:00:08,602 --> 00:00:12,010
+Next, I'll open the router
+code in main.js.
+
+4
+00:00:12,010 --> 00:00:14,626
+When the page changes,
+I'll look for a new header
+
+5
+00:00:14,626 --> 00:00:19,390
+by calling newPage.querySelector h2 and
+its focus method.
+
+6
+00:00:20,470 --> 00:00:24,430
+To prevent this code from running
+the first time the user visits the site,
+
+7
+00:00:24,430 --> 00:00:28,000
+I'll add a little guard
+variable called isFirstPage and
+
+8
+00:00:28,000 --> 00:00:31,730
+set that to false after
+the first page runs.
+
+9
+00:00:31,730 --> 00:00:36,490
+>From then on, anytime we switch to a new
+page, our header focus code will run.
+

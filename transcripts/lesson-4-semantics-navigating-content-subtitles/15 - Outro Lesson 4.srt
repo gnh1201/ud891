@@ -1,0 +1,90 @@
+1
+00:00:00,510 --> 00:00:01,160
+Thanks so much for
+
+2
+00:00:01,160 --> 00:00:03,920
+giving us that extra insight into
+how you use websites Victor.
+
+3
+00:00:03,920 --> 00:00:04,790
+>> Sure my pleasure.
+
+4
+00:00:05,920 --> 00:00:08,780
+>> If you could have our students take
+away just two things from this lesson
+
+5
+00:00:08,780 --> 00:00:09,370
+what would they be?
+
+6
+00:00:10,560 --> 00:00:14,190
+>> First of all make sure to
+use meaningful headings and
+
+7
+00:00:14,190 --> 00:00:17,250
+link text as well as good pay structure.
+
+8
+00:00:18,370 --> 00:00:22,930
+Secondly, as a general rule,
+you shouldn't try to control
+
+9
+00:00:22,930 --> 00:00:25,370
+the experience a screen
+reader user will have.
+
+10
+00:00:26,520 --> 00:00:29,130
+They will use the information
+available to them
+
+11
+00:00:29,130 --> 00:00:33,370
+because the tool they're using to find
+that information on the web page.
+
+12
+00:00:33,370 --> 00:00:38,980
+Things such as trying to control or fine
+tune exactly what a screen reader says,
+
+13
+00:00:38,980 --> 00:00:42,780
+or make an elements focusable
+which shouldn't be,
+
+14
+00:00:42,780 --> 00:00:47,720
+generally lead to more confusion and
+worse experience for users.
+
+15
+00:00:47,720 --> 00:00:50,360
+>> That's really helpful
+advice thank you.
+
+16
+00:00:50,360 --> 00:00:54,023
+Now and our next lesson, we're going to
+take a look at what we can do if HTML
+
+17
+00:00:54,023 --> 00:00:57,932
+doesn't have the precise semantic we
+need or if, for some reason or other,
+
+18
+00:00:57,932 --> 00:01:01,811
+the HTML element we'd usually use isn't
+a good fit for some other reason.
+
+19
+00:01:01,811 --> 00:01:03,099
+[BLANK_AUDIO]
+

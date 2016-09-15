@@ -1,0 +1,182 @@
+1
+00:00:00,420 --> 00:00:02,940
+All right,
+this is a pretty tricky exercise, so
+
+2
+00:00:02,940 --> 00:00:05,580
+let's go through all
+the steps we need to take.
+
+3
+00:00:05,580 --> 00:00:10,090
+First we have this need to call
+this method somewhere smiley face.
+
+4
+00:00:10,090 --> 00:00:12,210
+All right thanks, we get the hint.
+
+5
+00:00:12,210 --> 00:00:16,360
+Next, we see ChromeVox reports
+the wrong list size and position.
+
+6
+00:00:17,430 --> 00:00:20,540
+Okay but we still don't have
+enough context to check that.
+
+7
+00:00:20,540 --> 00:00:23,510
+So let's move on to the next FIXME.
+
+8
+00:00:23,510 --> 00:00:28,000
+All right, this last one says, need to
+ensure focus stays on text box, but
+
+9
+00:00:28,000 --> 00:00:30,270
+report active list option.
+
+10
+00:00:30,270 --> 00:00:34,630
+That sounds like a job for
+aria-activedescendent, which is designed
+
+11
+00:00:34,630 --> 00:00:38,690
+to make focus appear to be somewhere
+other than the web page focus.
+
+12
+00:00:38,690 --> 00:00:41,760
+In this case,
+we can't use a roving focus technique.
+
+13
+00:00:41,760 --> 00:00:44,320
+Because if we moved
+focus off the text box,
+
+14
+00:00:44,320 --> 00:00:47,040
+we wouldn't be able to
+type into it anymore.
+
+15
+00:00:47,040 --> 00:00:50,100
+So now we go back to that
+subtle hint from earlier,
+
+16
+00:00:50,100 --> 00:00:54,410
+the setActiveDescendant method
+on the combo box prototype.
+
+17
+00:00:54,410 --> 00:00:58,660
+We can call that here with
+that newActive element.
+
+18
+00:00:58,660 --> 00:01:01,740
+Now if we were to try this out and
+we selected Coffee,
+
+19
+00:01:01,740 --> 00:01:03,440
+it would say one of seven.
+
+20
+00:01:03,440 --> 00:01:07,760
+And if we selected Cola,
+ChromeVox would say five of seven.
+
+21
+00:01:07,760 --> 00:01:09,140
+What?
+
+22
+00:01:09,140 --> 00:01:12,440
+If we take a look at the DOM we can see
+that we've just hidden the filtered out
+
+23
+00:01:12,440 --> 00:01:13,330
+list items.
+
+24
+00:01:13,330 --> 00:01:15,550
+They're still there in the DOM.
+
+25
+00:01:15,550 --> 00:01:18,940
+Now most screen readers would have no
+trouble with this, since they would be
+
+26
+00:01:18,940 --> 00:01:23,160
+hidden from the accessibility tree, but
+ChromeVox works a little differently.
+
+27
+00:01:23,160 --> 00:01:27,270
+So we're going to use another aria
+relationship technique to handle this.
+
+28
+00:01:27,270 --> 00:01:30,150
+This is where we get back to that
+ChromeVox reports the wrong list size
+
+29
+00:01:30,150 --> 00:01:36,670
+and position, aria-posinset and
+aria-setsize are our friends here.
+
+30
+00:01:36,670 --> 00:01:38,940
+Both of them need to
+go on the list items.
+
+31
+00:01:38,940 --> 00:01:44,730
+So we iterate over the visible list
+items, and then we can set aria-posinset
+
+32
+00:01:44,730 --> 00:01:50,462
+to the item index + 1 since
+aria-posinset is a 1 based index.
+
+33
+00:01:50,462 --> 00:01:54,880
+And aria-setsize to
+the number of visibleItems.
+
+34
+00:01:54,880 --> 00:01:59,401
+Yes, it seems a bit redundant
+to set that on every list item,
+
+35
+00:01:59,401 --> 00:02:02,694
+but this is just how
+aria-posinset works.
+
+36
+00:02:02,694 --> 00:02:06,511
+And if we were to try this out,
+we type co and press down,
+
+37
+00:02:06,511 --> 00:02:10,280
+we would get Coffee one of two,
+and Cola two of two.
+
+38
+00:02:10,280 --> 00:02:11,170
+So we're all set.
+

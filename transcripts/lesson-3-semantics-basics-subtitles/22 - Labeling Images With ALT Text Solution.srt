@@ -1,0 +1,99 @@
+1
+00:00:00,530 --> 00:00:02,990
+All images should have an alt attribute.
+
+2
+00:00:02,990 --> 00:00:05,939
+Important images should
+have descriptive alt text
+
+3
+00:00:05,939 --> 00:00:08,189
+that just describes what the image is.
+
+4
+00:00:08,189 --> 00:00:12,880
+Decorative images like here
+should have blank alt text.
+
+5
+00:00:12,880 --> 00:00:16,420
+The screen reader will skip
+that element completely.
+
+6
+00:00:16,420 --> 00:00:19,990
+You want to include blank text because
+if you don't the screen reader may try
+
+7
+00:00:19,990 --> 00:00:23,670
+to read the filename and if the file
+names weird, it'll sound weird.
+
+8
+00:00:24,680 --> 00:00:26,860
+So let's go through each of these.
+
+9
+00:00:26,860 --> 00:00:30,150
+The site logo, just gets and
+all text of the site name.
+
+10
+00:00:30,150 --> 00:00:33,640
+The fact that it's an image makes
+the fact that it's a logo obvious.
+
+11
+00:00:33,640 --> 00:00:36,880
+And even if it's a link to the homepage,
+that information is implicit for
+
+12
+00:00:36,880 --> 00:00:38,120
+sighted users.
+
+13
+00:00:38,120 --> 00:00:42,330
+So there's no need to spell it out for
+assistive technology users.
+
+14
+00:00:42,330 --> 00:00:46,040
+The shopping cart and the top right
+hand corner, is significant so
+
+15
+00:00:46,040 --> 00:00:48,440
+it needs a useful alt text.
+
+16
+00:00:48,440 --> 00:00:52,590
+But the shopping cart in the Add to
+Cart button is purely decoration.
+
+17
+00:00:52,590 --> 00:00:56,880
+So that can have an all
+text to avoid repetition.
+
+18
+00:00:56,880 --> 00:00:59,670
+The main image here is significant.
+
+19
+00:00:59,670 --> 00:01:04,769
+So we can give that a descriptive alt
+text and finally the thumbnail images
+
+20
+00:01:04,769 --> 00:01:09,460
+on the links to other dishes are also
+decorative since the link text
+
+21
+00:01:09,460 --> 00:01:12,900
+provides the exact same information
+we would have put in the alt text.
+

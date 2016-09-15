@@ -1,0 +1,77 @@
+1
+00:00:00,880 --> 00:00:04,250
+This first div has content
+saying semantics, but
+
+2
+00:00:04,250 --> 00:00:06,800
+it also has an aria-hidden attribute.
+
+3
+00:00:06,800 --> 00:00:11,510
+However, the aria-hidden attribute
+doesn't have an explicit value.
+
+4
+00:00:11,510 --> 00:00:15,490
+So, this element isn't actually
+hidden from assistive technology.
+
+5
+00:00:15,490 --> 00:00:17,950
+So it has a label, Semantics.
+
+6
+00:00:17,950 --> 00:00:20,650
+This span has a role of checkbox and
+
+7
+00:00:20,650 --> 00:00:25,770
+is area labeled by an element with
+an ID of label which is right below it.
+
+8
+00:00:25,770 --> 00:00:28,002
+The element it's labeled by is hidden.
+
+9
+00:00:28,002 --> 00:00:32,630
+However, area-labeledby may refer
+to elements which are hidden.
+
+10
+00:00:32,630 --> 00:00:35,040
+So this gets a label of Styling.
+
+11
+00:00:35,040 --> 00:00:39,500
+This button has a hidden attribute which
+causes it to be explicitly not rendered,
+
+12
+00:00:39,500 --> 00:00:40,490
+so it has no label.
+
+13
+00:00:41,600 --> 00:00:44,440
+And this span has a roll of button and
+
+14
+00:00:44,440 --> 00:00:49,750
+contains another span with the role
+of image and an area label of menu.
+
+15
+00:00:49,750 --> 00:00:52,650
+Since the outer span
+contains the inner span,
+
+16
+00:00:52,650 --> 00:00:55,400
+It uses its computed
+label as its contents.
+
+17
+00:00:55,400 --> 00:00:57,460
+So it ends up with a label of menu.
+

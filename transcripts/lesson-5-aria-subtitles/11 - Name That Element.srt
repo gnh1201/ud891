@@ -1,0 +1,114 @@
+1
+00:00:00,530 --> 00:00:03,170
+For this button, we have two options.
+
+2
+00:00:03,170 --> 00:00:05,530
+The content, which says, Eucalyptus.
+
+3
+00:00:05,530 --> 00:00:08,600
+Or the area that's labeled,
+which says, Gumnut.
+
+4
+00:00:08,600 --> 00:00:12,410
+We just learned that the aria-label
+overrides any other native labeling,
+
+5
+00:00:12,410 --> 00:00:14,000
+including content.
+
+6
+00:00:14,000 --> 00:00:16,750
+So in this case,
+the button will have a label of Gumnut.
+
+7
+00:00:17,930 --> 00:00:22,380
+For this native checkbox we have
+a label field next to it, however,
+
+8
+00:00:22,380 --> 00:00:25,720
+the label is not correctly
+associated with the input.
+
+9
+00:00:25,720 --> 00:00:28,410
+So the input won't have a label.
+
+10
+00:00:28,410 --> 00:00:33,470
+We could fix that by giving the checkbox
+an ID of roo, as well as a name.
+
+11
+00:00:34,870 --> 00:00:39,070
+For this div we have a role of
+button and content, Wombat.
+
+12
+00:00:39,070 --> 00:00:43,309
+Normally a div on it's own wouldn't get
+included in the accessibility tree.
+
+13
+00:00:43,309 --> 00:00:46,070
+We would just get the text
+node inside of it.
+
+14
+00:00:46,070 --> 00:00:48,581
+But since it has a role of button,
+
+15
+00:00:48,581 --> 00:00:52,544
+it will be exposed as a button
+with a label, Wombat.
+
+16
+00:00:52,544 --> 00:00:56,460
+And finally,
+this span needs a pretty close look.
+
+17
+00:00:56,460 --> 00:00:58,770
+It has a role of checkbox.
+
+18
+00:00:58,770 --> 00:01:00,890
+aria-checked state is false.
+
+19
+00:01:00,890 --> 00:01:03,110
+aria-labeledby pointing to label.
+
+20
+00:01:04,519 --> 00:01:06,470
+And aria-label of, Not checked.
+
+21
+00:01:07,960 --> 00:01:12,210
+So it will be exposed in accessibility
+tree because it has a role.
+
+22
+00:01:12,210 --> 00:01:16,940
+But the label will be one of,
+Not checked, and, Wallaby.
+
+23
+00:01:16,940 --> 00:01:20,930
+We heard in the previous lesson
+that aria-labelledby overrides
+
+24
+00:01:20,930 --> 00:01:22,870
+all other types of labels.
+
+25
+00:01:22,870 --> 00:01:24,770
+So the label for this will be, Wallaby.
+

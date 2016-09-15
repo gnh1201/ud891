@@ -1,0 +1,42 @@
+1
+00:00:00,350 --> 00:00:03,880
+Okay, we just had a look at making
+a screen reader accessible custom
+
+2
+00:00:03,880 --> 00:00:05,250
+checkbox.
+
+3
+00:00:05,250 --> 00:00:09,050
+The more astute of you may have noticed
+that while we did specify the checkbox
+
+4
+00:00:09,050 --> 00:00:10,750
+estate as checked,
+
+5
+00:00:10,750 --> 00:00:14,260
+that wasn't going to stay in sync with
+the actual state of the checkbox.
+
+6
+00:00:15,350 --> 00:00:19,740
+In this exercise your job is to
+fully implement the area for
+
+7
+00:00:19,740 --> 00:00:21,810
+this custom checkbox.
+
+8
+00:00:21,810 --> 00:00:24,510
+You'll need to give it
+a roll of checkbox and
+
+9
+00:00:24,510 --> 00:00:29,000
+an area desc to checked value which
+matches it's checked state at all times.
+

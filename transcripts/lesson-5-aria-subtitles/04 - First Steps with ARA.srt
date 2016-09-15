@@ -1,0 +1,53 @@
+1
+00:00:00,490 --> 00:00:03,530
+In the JavaScript file,
+in the Checkbox's initialization,
+
+2
+00:00:03,530 --> 00:00:07,250
+I'm going to add an initial
+role of checkbox.
+
+3
+00:00:07,250 --> 00:00:10,210
+I'm also going to add
+an aria-checked value
+
+4
+00:00:10,210 --> 00:00:13,780
+dependent upon what the initial
+checked value of the checkbox is.
+
+5
+00:00:14,860 --> 00:00:16,680
+This function also looks promising.
+
+6
+00:00:16,680 --> 00:00:20,030
+It changes the checked
+attribute on the element.
+
+7
+00:00:20,030 --> 00:00:25,320
+So I can just add an extra line here to
+set the aria-checked value accordingly.
+
+8
+00:00:25,320 --> 00:00:27,550
+Now when I interact with the checkbox,
+
+9
+00:00:27,550 --> 00:00:30,330
+you'll be able to see the aria-checked
+attribute change in the DOM.
+
+10
+00:00:30,330 --> 00:00:33,150
+You would also be able
+to fire up VoiceOver and
+
+11
+00:00:33,150 --> 00:00:35,567
+see that it works just the same
+as a regular checkbox too.
+

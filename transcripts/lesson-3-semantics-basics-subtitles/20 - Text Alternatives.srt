@@ -1,0 +1,285 @@
+1
+00:00:00,550 --> 00:00:03,160
+Let's have a look at
+text alternative images.
+
+2
+00:00:03,160 --> 00:00:07,630
+We can use the old attribute to
+provide a text alternative images.
+
+3
+00:00:07,630 --> 00:00:10,480
+However, we need to think about what
+role an image plays in the page
+
+4
+00:00:10,480 --> 00:00:12,800
+to work out what type of text
+alternative it should have.
+
+5
+00:00:12,800 --> 00:00:16,350
+Let's have another look at this
+newspaper page from the previous lesson.
+
+6
+00:00:17,370 --> 00:00:18,360
+I've got VoiceOver running and
+
+7
+00:00:18,360 --> 00:00:21,390
+I'm going to use the mouse pointer
+Moves VoiceOver Cursor option
+
+8
+00:00:21,390 --> 00:00:23,130
+to let me quickly inspect things for
+VoiceOver.
+
+9
+00:00:23,130 --> 00:00:25,880
+Now, you probably don't want
+this on all of the time.
+
+10
+00:00:25,880 --> 00:00:28,990
+But it can be good for
+quickly testing things.
+
+11
+00:00:28,990 --> 00:00:30,700
+>> HTML content.
+>> All right.
+
+12
+00:00:30,700 --> 00:00:34,120
+So here, we have a picture of a cat
+illustrating that article on cats.
+
+13
+00:00:34,120 --> 00:00:35,942
+VoiceOver announces this has.
+
+14
+00:00:35,942 --> 00:00:41,410
+>> [INAUDIBLE]
+>> Okay, so that was pretty sub optimal.
+
+15
+00:00:41,410 --> 00:00:44,420
+I can pull up div tools on the image and
+
+16
+00:00:44,420 --> 00:00:50,440
+add an alt attribute which says a cat
+staring menacingly off into space.
+
+17
+00:00:50,440 --> 00:00:52,560
+All right, so
+now I can try VoiceOver again
+
+18
+00:00:52,560 --> 00:00:54,563
+>> VoiceOver on Chrome, HTML content,
+
+19
+00:00:54,563 --> 00:00:57,648
+a cat staring menacingly off into space.
+
+20
+00:00:57,648 --> 00:01:00,290
+>> And now you have a nice succinct
+description of the image and
+
+21
+00:01:00,290 --> 00:01:01,070
+move on to the article.
+
+22
+00:01:02,130 --> 00:01:04,940
+A couple comments on the alt attribute.
+
+23
+00:01:04,940 --> 00:01:09,342
+Alt allows you to specify a simple
+string to be used whenever an image is
+
+24
+00:01:09,342 --> 00:01:13,445
+not available, whether the image
+fails to load like it has here or
+
+25
+00:01:13,445 --> 00:01:16,451
+you're a web crawling bot or a screen.
+
+26
+00:01:16,451 --> 00:01:21,771
+Alt differs from any other type
+of caption, including a title,
+
+27
+00:01:21,771 --> 00:01:27,560
+in that it will only be used
+if the image isn’t available.
+
+28
+00:01:27,560 --> 00:01:30,610
+Caption or title typically
+provides extra context for
+
+29
+00:01:30,610 --> 00:01:34,250
+the image,
+rather than an alternative to the image.
+
+30
+00:01:34,250 --> 00:01:36,800
+Writing useful alt text
+is a bit of an art.
+
+31
+00:01:36,800 --> 00:01:40,030
+In order for a string to be a usable
+text alternative it needs to convey
+
+32
+00:01:40,030 --> 00:01:44,020
+the same thing as the image
+in the given context.
+
+33
+00:01:44,020 --> 00:01:48,720
+To give a more complex example, we have
+that logo image in the masthead link.
+
+34
+00:01:48,720 --> 00:01:50,730
+That link is going to take
+us back to the homepage.
+
+35
+00:01:50,730 --> 00:01:53,840
+So it might be tempting
+to write home here.
+
+36
+00:01:53,840 --> 00:01:55,660
+That's not a functional
+alternative to the image.
+
+37
+00:01:55,660 --> 00:01:58,880
+It's actually going to create
+a more confusing experience,
+
+38
+00:01:58,880 --> 00:02:02,750
+because then we might get the idea that
+it's an image of some kind of home.
+
+39
+00:02:02,750 --> 00:02:08,030
+Instead, we can describe this image
+pretty accurately simply as The Funion.
+
+40
+00:02:08,030 --> 00:02:10,830
+You may or may not want to explicitly
+call out that it's a logo, but
+
+41
+00:02:10,830 --> 00:02:13,770
+given it's an image, that's more or
+less implied anyway.
+
+42
+00:02:13,770 --> 00:02:15,800
+An easy way to check whether
+alt text is sensible,
+
+43
+00:02:15,800 --> 00:02:18,110
+is to imagine all your
+images are broken.
+
+44
+00:02:18,110 --> 00:02:20,440
+Can you still understand
+the page content?
+
+45
+00:02:20,440 --> 00:02:24,230
+Now there's one image I left in here
+that I'd like to take a closer look at.
+
+46
+00:02:24,230 --> 00:02:27,560
+You have this magnifying glass logo,
+inside the search link.
+
+47
+00:02:28,890 --> 00:02:31,731
+If I checked it out with the VoiceOver,
+>> Magnifying
+
+48
+00:02:31,731 --> 00:02:34,430
+glass,
+>> I can hear that we've hopefully
+
+49
+00:02:34,430 --> 00:02:39,870
+added an alt text of magnifying glass,
+but if I inspect the link as a whole.
+
+50
+00:02:39,870 --> 00:02:40,970
+>> Magnifying glass search link.
+
+51
+00:02:42,270 --> 00:02:44,240
+>> We can hear that it
+is actually redundant.
+
+52
+00:02:44,240 --> 00:02:47,490
+>> Magnifying glass search doesn't
+convey anything that search doesn't.
+
+53
+00:02:48,770 --> 00:02:51,390
+How do we know that if we leave the alt
+text out, we'll probably hear the image
+
+54
+00:02:51,390 --> 00:02:54,320
+file name which we already saw as
+a potentially horrible experience.
+
+55
+00:02:55,570 --> 00:03:00,350
+So in this case, I'm going to
+to use an empty alt text, and
+
+56
+00:03:00,350 --> 00:03:02,048
+we'll see what that does.
+
+57
+00:03:02,048 --> 00:03:05,770
+The empty alt text actually removed
+the image from the accessibility tree
+
+58
+00:03:05,770 --> 00:03:09,620
+altogether, so the image is now
+completely skipped by the screen reader.
+
+59
+00:03:09,620 --> 00:03:12,550
+In this case it's actually what we want,
+because the image was redundant.
+

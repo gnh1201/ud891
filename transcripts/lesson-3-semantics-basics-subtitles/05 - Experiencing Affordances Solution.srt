@@ -1,0 +1,24 @@
+1
+00:00:00,560 --> 00:00:03,960
+This date field means I
+should enter the US date.
+
+2
+00:00:03,960 --> 00:00:05,870
+A check box is a yes or no option.
+
+3
+00:00:07,090 --> 00:00:09,580
+Here, I see I can enter
+one line of text.
+
+4
+00:00:10,730 --> 00:00:13,780
+Radio buttons mean I
+can choose one option.
+
+5
+00:00:13,780 --> 00:00:17,310
+And this button here lets me
+know it will perform an action.
+

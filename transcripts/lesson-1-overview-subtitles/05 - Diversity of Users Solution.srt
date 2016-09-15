@@ -1,0 +1,46 @@
+1
+00:00:01,490 --> 00:00:05,490
+Blindness is a visual
+impairment that is permanent.
+
+2
+00:00:07,150 --> 00:00:08,230
+Don't, or can't,
+
+3
+00:00:08,230 --> 00:00:12,610
+listen to audio in an open plan
+office is a hearing impairment.
+
+4
+00:00:12,610 --> 00:00:13,775
+That is situational.
+
+5
+00:00:15,285 --> 00:00:18,805
+Holding a baby in one arm
+is a motor impairment.
+
+6
+00:00:18,805 --> 00:00:19,995
+That is situational.
+
+7
+00:00:21,565 --> 00:00:26,505
+A concussion is a cognitive and
+a visual impairment.
+
+8
+00:00:26,505 --> 00:00:27,335
+That is temporary.
+
+9
+00:00:28,575 --> 00:00:32,595
+And finally, a repetitive strain injury,
+known as RSI,
+
+10
+00:00:32,595 --> 00:00:36,635
+is a motor impairment that is
+either temporary or permanent.
+

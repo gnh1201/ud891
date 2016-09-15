@@ -1,0 +1,24 @@
+1
+00:00:00,530 --> 00:00:03,469
+We've covered several ways to
+label elements already and
+
+2
+00:00:03,469 --> 00:00:07,916
+just learned about two more,
+aria-label and aria-labelledby.
+
+3
+00:00:07,916 --> 00:00:11,350
+In this quiz, we're going to see some of
+those labeling techniques in action and
+
+4
+00:00:11,350 --> 00:00:14,960
+put our skills to the test by
+figuring out the accessible name
+
+5
+00:00:14,960 --> 00:00:15,650
+for each element.
+

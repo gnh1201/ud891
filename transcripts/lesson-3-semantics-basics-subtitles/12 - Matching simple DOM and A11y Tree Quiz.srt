@@ -1,0 +1,9 @@
+1
+00:00:00,710 --> 00:00:04,830
+Which of these accessibility trees
+matches the simple dom structure
+
+2
+00:00:04,830 --> 00:00:05,610
+shown here on the left?
+

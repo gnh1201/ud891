@@ -1,0 +1,28 @@
+1
+00:00:00,400 --> 00:00:03,240
+Rob just told us that we
+should typically only add tab
+
+2
+00:00:03,240 --> 00:00:07,590
+index attributes to interactive
+elements and not our site content.
+
+3
+00:00:07,590 --> 00:00:11,930
+With that in mind, given
+the following page, check the box for
+
+4
+00:00:11,930 --> 00:00:14,870
+any element which should be focusable.
+
+5
+00:00:14,870 --> 00:00:17,510
+This could be an element
+that is natively focused or
+
+6
+00:00:17,510 --> 00:00:19,570
+one that you might add a tab index to.
+

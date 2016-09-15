@@ -1,0 +1,32 @@
+1
+00:00:00,490 --> 00:00:02,680
+Here's a page with a busted tab order.
+
+2
+00:00:02,680 --> 00:00:06,080
+Go ahead try to navigate this
+page using the keyboard only
+
+3
+00:00:06,080 --> 00:00:08,830
+you'll find you skip around a lot.
+
+4
+00:00:08,830 --> 00:00:12,690
+It would be much easier if
+we navigated in this order.
+
+5
+00:00:12,690 --> 00:00:17,750
+Navigation links, search,
+content links and then the footer.
+
+6
+00:00:18,790 --> 00:00:22,950
+Using a text editor, see if you can fix
+the order of the elements in the DOM, so
+
+7
+00:00:22,950 --> 00:00:24,390
+that the tab order makes sense.
+

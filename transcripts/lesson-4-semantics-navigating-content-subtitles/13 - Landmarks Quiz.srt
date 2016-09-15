@@ -1,0 +1,58 @@
+1
+00:00:00,290 --> 00:00:03,420
+This blog uses some nice
+readable CSS class names
+
+2
+00:00:03,420 --> 00:00:08,140
+which refer to page structure rather
+than the details of the style used.
+
+3
+00:00:08,140 --> 00:00:12,290
+For example, right up to
+the top we see blog header and
+
+4
+00:00:12,290 --> 00:00:15,740
+a little further down this
+banner area is called blog hero.
+
+5
+00:00:17,320 --> 00:00:23,090
+For blog header, we could just as
+easily have used a header element and
+
+6
+00:00:23,090 --> 00:00:27,370
+modify our style sheet to refer to
+the tag name instead of the class.
+
+7
+00:00:27,370 --> 00:00:31,590
+And then we would get the added benefit
+of some extra semantic information for
+
+8
+00:00:31,590 --> 00:00:33,780
+assistive technology users.
+
+9
+00:00:33,780 --> 00:00:36,495
+We've highlighted four
+other areas of this page
+
+10
+00:00:36,495 --> 00:00:40,245
+which have some class names suggestive
+of the HTML sectioning elements
+
+11
+00:00:40,245 --> 00:00:42,205
+of the page we just learned about.
+
+12
+00:00:42,205 --> 00:00:46,535
+Your job is to fill in the appropriate
+tag names just like we did with header.
+

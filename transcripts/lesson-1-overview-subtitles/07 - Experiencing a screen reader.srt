@@ -1,0 +1,69 @@
+1
+00:00:00,330 --> 00:00:04,600
+Victor just showed us how he uses
+a screen reader to access content.
+
+2
+00:00:04,600 --> 00:00:08,070
+Now, it's your turn to try
+out using a screen reader.
+
+3
+00:00:08,070 --> 00:00:09,800
+This is chrome Vox lite.
+
+4
+00:00:09,800 --> 00:00:13,000
+A minimal but functioning screen reader,
+written in JavaScript,
+
+5
+00:00:13,000 --> 00:00:15,090
+that we've injected into this page.
+
+6
+00:00:15,090 --> 00:00:16,500
+>> Click a button.
+
+7
+00:00:16,500 --> 00:00:17,770
+Heading one.
+
+8
+00:00:17,770 --> 00:00:20,600
+>> You can use the control panel at
+the bottom of the screen to control
+
+9
+00:00:20,600 --> 00:00:22,000
+the screen reader.
+
+10
+00:00:22,000 --> 00:00:24,620
+>> This screen reader has very
+minimal functionality, but
+
+11
+00:00:24,620 --> 00:00:28,600
+we can explore the page using
+the previous and next buttons.
+
+12
+00:00:28,600 --> 00:00:32,720
+And click things,
+using the click button.Give this a try.
+
+13
+00:00:32,720 --> 00:00:38,380
+Using Chrome Vox lite, navigate to the I
+love accessibility button and click it.
+
+14
+00:00:38,380 --> 00:00:41,960
+A word is going to appear on the screen,
+come back here and
+
+15
+00:00:41,960 --> 00:00:43,290
+enter it into the text box.
+

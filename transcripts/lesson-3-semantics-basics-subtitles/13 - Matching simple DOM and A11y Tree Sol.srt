@@ -1,0 +1,10 @@
+1
+00:00:01,310 --> 00:00:04,780
+The accessibility tree contains
+essentially the same information
+
+2
+00:00:04,780 --> 00:00:07,939
+as the DOM tree, so
+this would be our correct answer.
+
