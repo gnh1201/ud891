@@ -3,6 +3,15 @@ We supported summarized web accessibility guide by translated UD981 documentatio
 - https://github.com/gnh1201/ud891/wiki/
 - http://blog.naver.com/isc7981/220813034824
 
+## Lessons
+- https://github.com/gnh1201/ud891/wiki/ (Home)
+- https://github.com/gnh1201/ud891/wiki/Lesson-1-Overview
+- https://github.com/gnh1201/ud891/wiki/Lesson-2-Focus
+- https://github.com/gnh1201/ud891/wiki/Lesson-3-Semantics-Basics
+- https://github.com/gnh1201/ud891/wiki/Lesson-4-Semantics-Navigating-Content
+- https://github.com/gnh1201/ud891/wiki/Lesson-5-ARIA
+- https://github.com/gnh1201/ud891/wiki/Lesson-6-Style
+
 ## Found problems?
 Contact me. gnh1201@gmail.com
 
